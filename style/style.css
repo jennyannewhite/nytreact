@@ -1,0 +1,128 @@
+* {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+a {
+    color: #dd0a52;
+}
+
+a:hover {
+    color: #dd0a52;
+}
+
+.search-bar {
+    margin: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/*.search-button {
+    border-radius: 0;
+  }*/
+
+.search-bar input {
+    width: 75%;
+    text-align: center;
+}
+
+.article-detail .details {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #dd0a52;
+    border-radius: 0px 60;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*.article-detail .details:hover {
+    border: 1px solid #dd0a52;
+  }
+  */
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background-color: #e5e5e5;
+}
+
+
+/***********************
+    CUSTON BTN VALUES
+  ************************/
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: 0 none;
+}
+
+.sharp {
+    border-radius: 0rem;
+    border: 1px solid #e5e5e5;
+    background-color: white;
+    color: #dd0a52;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sharp:hover,
+.sharp:active:focus,
+.sharp.active:focus {
+    background-color: #fdd5e3;
+    border: 1px solid #dd0a52;
+    color: #dd0a52;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-group .list-group-item {
+    border-radius: 0;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input-search-bar {
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 1800px) {
+    .main {
+        margin-bottom: 40px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    .main {
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 75px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .main {
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 55px;
+    }
+}
+
+.footer {
+    margin-top: 30px;
+    font: 10px;
+    text-align: center;
+}
